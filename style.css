@@ -1,0 +1,29 @@
+/* Star Dodger V2 2024 Remake
+by p9iaai (c) 2024 (style.css) */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+
+#backgroundCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#gameCanvas {
+    border: 1px solid #333;
+    background: #111;
+    position: relative;
+    z-index: 1;
+}
