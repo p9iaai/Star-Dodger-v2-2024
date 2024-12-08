@@ -1,4 +1,4 @@
-# Star Dodger V2 2024 Remake by p9iaai 2024
+# Star Dodger V2 2024 Remake
 
 A recreation of Star Dodger V2, a BASIC type-in game originally published in Amstrad Action magazine in 1992. Created by Graham French, the original was a masterclass in simple yet addictive gameplay.
 
