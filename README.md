@@ -1,4 +1,4 @@
-# Star Dodger V2 2024 Remake by p9iaai 2024
+# Star Dodger V2 2024 Remake
 
 A recreation of Star Dodger, a game concept originally developed by Stewart Russell in 1988 and later reimagined as Star Dodger V2 by Graham French in 1992. Stewart Russell's foundational work for *Amstrad Computer User* magazine laid the groundwork for this timeless gameplay experience, with three distinct versions:
 
