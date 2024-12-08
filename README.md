@@ -33,7 +33,7 @@ Navigate your ship through a series of levels, each more challenging than the la
 
 - Smooth, physics-based movement
 - Procedurally generated levels
-- Dynamic backgrounds that change with each level
+- Dynamic backgrounds that change with each level (AI generated)
 - Dual-mode starfield effects:
   - Classic falling stars (default)
   - Perspective-based "warp speed" effect (toggle with 'S')
