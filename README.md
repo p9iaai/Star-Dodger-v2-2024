@@ -1,8 +1,12 @@
-# Star Dodger V2 2024 Remake
+# Star Dodger V2 2024 Remake by p9iaai 2024
 
-A recreation of Star Dodger V2, a BASIC type-in game originally published in Amstrad Action magazine in 1992. Created by Graham French, the original was a masterclass in simple yet addictive gameplay.
+A recreation of Star Dodger, a game concept originally developed by Stewart Russell in 1988 and later reimagined as Star Dodger V2 by Graham French in 1992. Stewart Russell's foundational work for *Amstrad Computer User* magazine laid the groundwork for this timeless gameplay experience, with three distinct versions:
 
-Navigate through increasingly challenging levels while avoiding stars and collisions. Just fire up index.html in your browser to play.
+- **Stardodger I** (BASIC Version)
+- **Stardodger II** (BCPL Version)
+- **Stardodger III** (Assembler Version)
+
+This remake is a tribute to the enduring creativity and adaptability of the original concept. As a child, I fondly remembered typing in Star Dodger V2 from *Amstrad Action* magazine, unaware of the earlier versions. Revisiting this history has been both enlightening and inspiring. Thank you, Stewart Russell, for creating a concept that has captivated players for decades.
 
 ![Title Screen](screens/01.png)
 *gameplay screen with falling stars effect*
@@ -33,7 +37,7 @@ Navigate your ship through a series of levels, each more challenging than the la
 
 - Smooth, physics-based movement
 - Procedurally generated levels
-- Dynamic backgrounds that change with each level (AI generated)
+- Dynamic backgrounds that change with each level
 - Dual-mode starfield effects:
   - Classic falling stars (default)
   - Perspective-based "warp speed" effect (toggle with 'S')
@@ -75,13 +79,11 @@ The current known high score is 1288 which happened during development by me wit
 
 ## 💝 Dedication
 
-This game is dedicated to Graham French, who created the original Star Dodger V2 for Amstrad Action magazine in 1992. His creation brought joy to many CPC gamers, including myself, with its elegant simplicity and addictive gameplay.
+This game is dedicated to Stewart Russell, who first developed the Star Dodger concept in 1988 for *Amstrad Computer User* magazine. His versions showcased the adaptability of the idea through BASIC, BCPL, and Assembler implementations, demonstrating the ingenuity of early computer game developers.
 
-The original game was described in the magazine as "an absolute corker" where "you have to cross the star field without hitting the meanies and squeeze through a black hole at the far side of the screen." The core mechanic - a ship moving diagonally at tremendous speed with only the space bar to alter its direction - was praised as "fiendishly difficult and very, very addictive."
+Recognition is also owed to Graham French, who reimagined Star Dodger in 1992 for *Amstrad Action* magazine as Star Dodger V2. His iteration brought the game to a wider audience, and its simplicity and addictive gameplay remain a fond memory for many.
 
-The fact that these gameplay mechanics remained so clear in memory after 30+ years really speaks to how well-designed the original was. Those type-in listings in magazines like Amstrad Action were often gems of efficient design - they had to be, given the memory constraints and the fact that someone had to physically type them in!
-
-Thank you, Graham French, for creating such a memorable game. This project aims to preserve and celebrate your contribution to 8-bit gaming history.
+The original mechanics, described as "fiendishly difficult and very, very addictive," remain compelling to this day. This project aims to celebrate and preserve the contributions of both Stewart Russell and Graham French to 8-bit gaming history.
 
 ## 🔄 Game States
 
