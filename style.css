@@ -24,6 +24,6 @@ body {
 #gameCanvas {
     border: 1px solid #333;
     background: #111;
-    position: relative;
+    position: absolute;
     z-index: 1;
 }
