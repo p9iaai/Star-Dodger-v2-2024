@@ -437,7 +437,7 @@ class Game {
         this.ctx.fillText('Press SPACE to Start', this.canvas.width/2, this.canvas.height * 6/8.5);
         this.ctx.fillText(`High Score: ${this.scoreManager.highScore}`, this.canvas.width/2, this.canvas.height * 6/8.5 + 40);
         
-        this.ctx.fillText('© 2024 p9iaai | © 1984 N. Silver (Original BBC) | © 1988 Stewart Russell (CPC Version) | © 1992 Graham French (V2 CPC Version)', this.canvas.width/2, this.canvas.height - 30);
+        this.ctx.fillText('© 2024 p9iaai | © 1984 N. Silver (Original) | © 1988 Stewart Russell (CPC) | © 1992 Graham French (V2 CPC)', this.canvas.width/2, this.canvas.height - 30);
     }
     
     drawGameOver() {
