@@ -1,12 +1,17 @@
 # Star Dodger V2 2024 Remake
 
-A recreation of Star Dodger, a game concept originally developed by Stewart Russell in 1988 and later reimagined as Star Dodger V2 by Graham French in 1992. Stewart Russell's foundational work for *Amstrad Computer User* magazine laid the groundwork for this timeless gameplay experience, with three distinct versions:
+A recreation of Star Dodger, a game concept that appears to trace its origins to N. Silver's "Asterisk Tracker" published in BEEBUG Magazine (December 1984), later independently developed as Star Dodger by Stewart Russell in 1988 and reimagined as Star Dodger V2 by Graham French in 1992. 
 
-- **Stardodger I** (BASIC Version)
-- **Stardodger II** (BCPL Version)
-- **Stardodger III** (Assembler Version)
+The concept's journey through gaming history:
+- 1984: N. Silver's "Asterisk Tracker" (BEEBUG Magazine)
+- 1988: Stewart Russell's Star Dodger series (Amstrad Computer User):
+  - **Stardodger I** (BASIC Version)
+  - **Stardodger II** (BCPL Version)
+  - **Stardodger III** (Assembler Version)
+- 1992: Graham French's Star Dodger V2 (Amstrad Action)
+- 2024: This JavaScript remake
 
-This remake is a tribute to the enduring creativity and adaptability of the original concept. As a child, I fondly remembered typing in Star Dodger V2 from *Amstrad Action* magazine, unaware of the earlier versions. Revisiting this history has been both enlightening and inspiring. Thank you, Stewart Russell, for creating a concept that has captivated players for decades.
+This remake is a tribute to the enduring creativity and evolution of this gameplay concept. As a child, I fondly remembered typing in Star Dodger V2 from *Amstrad Action* magazine, unaware of both the earlier versions and the original concept. Revisiting this history has been both enlightening and inspiring.
 
 ![Title Screen](screens/01.png)
 *gameplay screen with falling stars effect*
@@ -79,11 +84,12 @@ The current known high score is 1288 which happened during development by me wit
 
 ## 💝 Dedication
 
-This game is dedicated to Stewart Russell, who first developed the Star Dodger concept in 1988 for *Amstrad Computer User* magazine. His versions showcased the adaptability of the idea through BASIC, BCPL, and Assembler implementations, demonstrating the ingenuity of early computer game developers.
+This game is dedicated to:
+- N. Silver, whose 1984 "Asterisk Tracker" first introduced this addictive gameplay concept
+- Stewart Russell, who developed the Star Dodger series in 1988 for *Amstrad Computer User* magazine
+- Graham French, who reimagined Star Dodger in 1992 for *Amstrad Action* magazine as Star Dodger V2
 
-Recognition is also owed to Graham French, who reimagined Star Dodger in 1992 for *Amstrad Action* magazine as Star Dodger V2. His iteration brought the game to a wider audience, and its simplicity and addictive gameplay remain a fond memory for many.
-
-The original mechanics, described as "fiendishly difficult and very, very addictive," remain compelling to this day. This project aims to celebrate and preserve the contributions of both Stewart Russell and Graham French to 8-bit gaming history.
+The core mechanics, from avoiding "space acid poisoning" in 1984 to the "fiendishly difficult and very, very addictive" gameplay of later versions, remain compelling to this day. This project aims to celebrate and preserve this fascinating piece of gaming history and its evolution through the 8-bit era.
 
 ## 🔄 Game States
 
