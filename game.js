@@ -160,16 +160,23 @@ class Game {
         
         this.stateTransitionCooldown = 0;
         
-        this.backgrounds = [
-            ...Array.from({length: 7}, (_, i) => `bg/bg${i + 1}.jpg`),
-            ...Array.from({length: 7}, (_, i) => `bg/bg${i + 9}.jpg`)
-        ];
+        // Dynamically load all JPG images from bg folder
         this.backgroundImages = [];
         
-        this.backgrounds.forEach(src => {
+        // Get list of background images from bg folder
+        const bgFiles = ['bg/bg1.jpg', 'bg/bg2.jpg', 'bg/bg3.jpg', 'bg/bg4.jpg', 'bg/bg5.jpg', 'bg/bg6.jpg', 'bg/bg7.jpg', 'bg/bg8.jpg', 'bg/bg9.jpg', 'bg/bg10.jpg', 'bg/bg11.jpg', 'bg/bg12.jpg', 'bg/bg13.jpg', 'bg/bg14.jpg', 'bg/bg15.jpg', 'bg/bg16.jpg', 'bg/bg17.jpg', 'bg/bg18.jpg', 'bg/bg19.jpg', 'bg/bg20.jpg', 'bg/bg21.jpg', 'bg/bg22.jpg', 'bg/bg23.jpg', 'bg/bg24.jpg', ]; // Files found in bg folder
+        
+        // Load each image
+        bgFiles.forEach(src => {
             const img = new Image();
             img.src = src;
-            this.backgroundImages.push(img);
+            img.onload = () => {
+                console.log(`Loaded background: ${src}`);
+                this.backgroundImages.push(img);
+            };
+            img.onerror = () => {
+                console.error(`Failed to load background: ${src}`);
+            };
         });
         
         this.backgroundOpacity = 0.2;
@@ -332,12 +339,25 @@ class Game {
     }
     
     draw() {
+        // Draw background
+        this.ctx.globalAlpha = this.backgroundOpacity;
+        
+        // Fallback background color
+        this.ctx.fillStyle = '#000';
+        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+        
+        // Get current background image
+        // Calculate background index with proper cycling
         const bgIndex = (this.level - 1) % this.backgroundImages.length;
         const currentBg = this.backgroundImages[bgIndex];
         
-        if (currentBg && currentBg.complete) {
-            this.ctx.globalAlpha = this.backgroundOpacity;
-            
+        if (!currentBg) {
+            console.error(`No background image found for index ${bgIndex}`);
+            return;
+        }
+        
+        // Only draw if image is loaded
+        if (currentBg && currentBg.complete && currentBg.naturalWidth > 0) {
             const sourceX = this.cropAmount;
             const sourceY = this.cropAmount;
             const sourceWidth = currentBg.width - (this.cropAmount * 2);
@@ -351,9 +371,9 @@ class Game {
                 this.canvas.width,          // Destination Width
                 this.canvas.height          // Destination Height
             );
-            
-            this.ctx.globalAlpha = 1.0;
         }
+        
+        this.ctx.globalAlpha = 1.0;
         
         this.ctx.strokeStyle = '#444';
         this.ctx.lineWidth = 2;

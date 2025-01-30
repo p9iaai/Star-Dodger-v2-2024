@@ -1,8 +1,17 @@
+<div align="center">
+
 # Star Dodger V2 2024 Remake
 
-A recreation of Star Dodger, a game concept that appears to trace its origins to N. Silver's "Asterisk Tracker" published in BEEBUG Magazine (December 1984), later independently developed as Star Dodger by Stewart Russell in 1988 and reimagined as Star Dodger V2 by Graham French in 1992. 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/p9iaai)
+
+---
+
+</div>
+
+A recreation of Star Dodger, a game concept that appears to trace its origins to N. Silver's "Asterisk Tracker" published in BEEBUG Magazine (December 1984), later independently developed as Star Dodger by Stewart Russell in 1988 and reimagined as Star Dodger V2 by Graham French in 1992.
 
 The concept's journey through gaming history:
+
 - 1984: N. Silver's "Asterisk Tracker" (BEEBUG Magazine)
 - 1988: Stewart Russell's Star Dodger series (Amstrad Computer User):
   - **Stardodger I** (BASIC Version)
@@ -22,17 +31,20 @@ This remake is a tribute to the enduring creativity and evolution of this gamepl
 ## 🎮 Gameplay
 
 Navigate your ship through a series of levels, each more challenging than the last. The goal is to reach the exit door on the right side of the screen while:
+
 - Avoiding collisions with walls and stars
 - Managing your momentum and trajectory
 - Staying focused despite the hypnotic starfield background
 
 ### Controls
+
 - **SPACE BAR**: Hold to move up, release to move down
 - Ship moves at a constant speed from left to right
 - **S KEY**: Toggle between classic falling stars and perspective starfield modes
 - **F11**: Toggle fullscreen mode (browser)
 
 ### Scoring
+
 - +1 point for each close star passed
 - +50 points for completing a level
 - Three lives per game
@@ -40,6 +52,7 @@ Navigate your ship through a series of levels, each more challenging than the la
 
 ## 🚀 Features
 
+- Just open `index.html` in a browser to play!
 - Smooth, physics-based movement
 - Procedurally generated levels
 - Dynamic backgrounds that change with each level
@@ -55,16 +68,19 @@ Navigate your ship through a series of levels, each more challenging than the la
 ## 🛠️ Technical Details
 
 ### Built With
+
 - Pure JavaScript
 - HTML5 Canvas (dual-canvas setup for game and starfield)
 - Local Storage for high scores
 
 ### Resolution
+
 - 1280x720 (16:9 aspect ratio)
 - Responsive scaling
 - Full-window animated starfield background
 
 ### Performance
+
 - Optimized rendering with layered canvases
 - Smooth 60 FPS gameplay
 - Efficient collision detection
@@ -85,6 +101,7 @@ The current known high score is 1288 which happened during development by me wit
 ## 💝 Dedication
 
 This game is dedicated to:
+
 - N. Silver, whose 1984 "Asterisk Tracker" first introduced this addictive gameplay concept
 - Stewart Russell, who developed the Star Dodger series in 1988 for *Amstrad Computer User* magazine
 - Graham French, who reimagined Star Dodger in 1992 for *Amstrad Action* magazine as Star Dodger V2
@@ -130,3 +147,18 @@ The core mechanics, from avoiding "space acid poisoning" in 1984 to the "fiendis
 - Achievement system
 - Even more starfield patterns
 - VR support (just kidding!)
+
+---
+
+<div align="center">
+
+<img src="star-dodger-v2-2024.png" width=512 alt="avatar">
+
+---
+
+**p9iaai** <img src="p9iaai.png" width="32" align="middle"> **2024**
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/p9iaai)
+
+---
+</div>
